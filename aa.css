@@ -109,7 +109,7 @@
     }
     @media(max-width: 400px){
       .sidebar{
-        width: 100%;
+        width: 50%;
       }
     }
    
@@ -468,8 +468,8 @@ overflow: hidden;
 @media (max-width:700px) {
   .slider{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
   
 }
 }
@@ -492,7 +492,7 @@ overflow: hidden;
 @media (max-width:700px) {
   .view iframe{
     position: absolute;
-    width: 400px;
+    width: 350px;
     height: 300px;
   
 }
@@ -571,7 +571,7 @@ overflow: hidden;
     height: 50vh;
   }
   .map iframe{
-    width: 400px;
+    width: 350px;
     height: 300px;
   }
   .contact{
