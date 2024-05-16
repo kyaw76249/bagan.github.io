@@ -653,12 +653,9 @@ overflow: hidden;
   .bagan h2{
     font-size: 30px;
   }
-  .bagan-map{
-    display: block;
-    height: 50vh;
-  }
+  
   .bagan-map iframe{
-    width: 350px;
+    width: 300px;
     height: 300px;
   }
 }
