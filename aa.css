@@ -52,6 +52,7 @@
       cursor: pointer;
       text-decoration: none;
       font-size: 2rem;
+      padding-left: 20px;
   }
   .fa-gem{
     margin-right: 0.5rem;
@@ -81,7 +82,7 @@
       right: 0;
       height: 30vh;
       width: 150px;
-      background-color: rgba(255, 255, 255, 0.15);
+      background-color: rgb(39, 193, 185);
       backdrop-filter: blur(12px);
       box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
       list-style: none;
@@ -241,7 +242,10 @@ overflow: hidden;
     font-size: 15px;
   }
   .layer h3{
-     font-size: 30px;
+     font-size: 20px;
+  }
+  .about-col img{
+    width: 80%;
   }
 }
 
@@ -254,10 +258,11 @@ overflow: hidden;
   padding-top: 10px;
   background-color: beige;
 }
-.pagoda h3{
+.pagoda h2{
   text-align: center;
   font-size: 30px;
 }
+
 .row{
   margin-top: 10%;
   display: flex;
@@ -285,6 +290,7 @@ overflow: hidden;
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
+  font-size: 20px;
   
 }
 .facilities{
@@ -294,11 +300,20 @@ overflow: hidden;
   padding-top: 1px;
   background-color: beige;
 }
+.facilities h3{
+  text-align: center;
+  font-size: 20px;
+}
+
+
+
 .facilities-col{
   flex-basis: 31%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
+  padding: 20px 12px;
+  box-sizing: border-box;
 }
 .facilities-col img{
   width: 100%;
@@ -534,6 +549,7 @@ overflow: hidden;
  }
  .contact-info {
   text-align: left;
+  padding-left: 20px;
   
 }
 .contact-info h3{
@@ -588,6 +604,7 @@ overflow: hidden;
   text-align: left;
   width: 100%;
   padding-top: 50px;
+  padding-left: 10px;
 }
   
 .bagan h2{
@@ -610,15 +627,22 @@ overflow: hidden;
   height: 480px;
   float: right;
   padding-top: 40px;
+  padding-left: 40px;
 }
 .bagan-map{
   
   height: 100vh;
   margin: 0;
   padding-top:10px;
+  padding-left:40px;
+  padding-right: 40px;
   background: beige;
   justify-content: center;
   
+}
+.bagan-map iframe{
+  width: 100%;
+  height: 500px;
 }
 @media (max-width:700px) {
 
@@ -630,6 +654,14 @@ overflow: hidden;
   }
   .bagan h2{
     font-size: 30px;
+  }
+  .bagan-map{
+    display: block;
+    height: 50vh;
+  }
+  .bagan-map iframe{
+    width: 350px;
+    height: 300px;
   }
 }
 .footer{
